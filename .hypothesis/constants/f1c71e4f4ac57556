@@ -1,0 +1,4 @@
+# file: M:\Project DarkMatter\workspace\aumai-dhansetu\src\aumai_dhansetu\models.py
+# hypothesis_version: 6.151.9
+
+[0.0, 'BudgetCategory', 'BudgetPlan', 'FinancialConcept', 'FinancialTopic', 'GovernmentScheme', 'InvestmentOption', 'LiteracyLevel', 'UPIGuideEntry', 'advanced', 'beginner', 'credit', 'digital_payments', 'emi', 'high', 'insurance', 'intermediate', 'investment', 'low', 'moderate', 'needs', 'savings', 'taxation', 'wants']

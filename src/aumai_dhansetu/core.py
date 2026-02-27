@@ -294,6 +294,15 @@ _UPI_GUIDES: dict[str, UPIGuideEntry] = {
 }
 
 
+__all__ = [
+    "ConceptLibrary",
+    "BudgetPlanner",
+    "SchemeAdvisor",
+    "UPIGuide",
+    "InvestmentBasics",
+]
+
+
 class ConceptLibrary:
     """Built-in library of financial literacy concepts."""
 
@@ -405,8 +414,10 @@ class SchemeAdvisor:
                 continue
             if tg == "senior_citizens" and (age is not None and age < 55):
                 continue
-            if tg == "sc_st_women" and occ and "sc" not in occ and "st" not in occ and "women" not in occ:
-                continue
+            if tg == "sc_st_women" and occ:
+                occ_tokens = occ.split()
+                if "sc" not in occ_tokens and "st" not in occ_tokens and "women" not in occ_tokens:
+                    continue
 
             eligible.append(scheme)
         return eligible

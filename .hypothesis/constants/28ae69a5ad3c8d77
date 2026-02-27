@@ -1,0 +1,4 @@
+# file: M:\Project DarkMatter\workspace\aumai-dhansetu\src\aumai_dhansetu\cli.py
+# hypothesis_version: 6.151.9
+
+[100, '\nRecommendations:', '\nTips:', '\nWarnings:', '-', '--age', '--income', '--json-output', '--level', '--occupation', '--risk', '--search', '--tax-saving', '--topic', 'Annual income in INR', 'Examples:', 'Filter by risk level', 'Financial topic', 'Literacy level', 'No', 'None', 'Output as JSON', 'Search by keyword', 'UPI topic', 'Yes (80C)', 'Your age', '__main__', 'disputes', 'high', 'limits', 'low', 'moderate', 'query', 'security', 'setup']

@@ -16,8 +16,10 @@ from aumai_dhansetu.core import (
 from aumai_dhansetu.models import FinancialTopic, LiteracyLevel
 
 _DISCLAIMER = (
-    "\nDisclaimer: This tool provides financial education only. "
-    "Consult a qualified financial advisor before making investment decisions.\n"
+    "\nIMPORTANT: Interest rates and returns mentioned are indicative and subject to change. "
+    "Past performance does not guarantee future results. "
+    "This tool does not provide SEBI-registered investment advisory. "
+    "Verify all financial information with official sources before making decisions.\n"
 )
 
 
